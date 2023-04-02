@@ -62,7 +62,7 @@ def delet_confirm(contact: str):
 
 
 def find_contact():
-    find = input('Введите имя контакта')
+    find = input('Введите имя контакта: ')
     return find
 
 
