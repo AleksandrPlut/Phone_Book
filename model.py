@@ -34,11 +34,11 @@ def get_contact(text: str):
     for i, contact in enumerate(phone_book):
         for field in contact:
             if text in field:
-                result.append(contact, i)
+                result.append((contact, i))
     if len(result) > 1:
         return False
-    else:
-        result
+    
+    return result
 
 
 def change_contact(index: int, new: list):

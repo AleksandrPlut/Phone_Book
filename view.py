@@ -55,7 +55,7 @@ def change_contact():
 
 
 def delet_confirm(contact: str):
-    result = input('Вы действительно хотите удалить контакт {contact}? (y/n)')
+    result = input('Вы действительно хотите удалить контакт {contact}? (y/n): ')
     if result == 'y':
         return True
     return False
